@@ -1,0 +1,169 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/app_images/amazonpay.png",
+      "sha1": "4ec7050dda251f228cb2b9a5220cc986099dd3c7"
+    },
+    {
+      "path": "src/assets/app_images/applepay.png",
+      "sha1": "0b06e72fa97134cda893f1688ab8852fef316f1f"
+    },
+    {
+      "path": "src/assets/app_images/avatar.png",
+      "sha1": "3455b9a804fed85c996001bfbcc73e6034bdf528"
+    },
+    {
+      "path": "src/assets/app_images/gpay.png",
+      "sha1": "039fbff59306d5e4300ef7614d796844345575af"
+    },
+    {
+      "path": "src/assets/fonts/app_icons.ttf",
+      "sha1": "18e5fe2f93c853bbb495975f04df56438d595de5"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/images/logo/jaouda_logo.png",
+      "sha1": "5195d4ba5ceaa43dc3d2eb8709fb069d1d6f5323"
+    },
+    {
+      "path": "src/assets/images/logo/logo_copag.png",
+      "sha1": "50d281f3b2e8c1bdc067f785ebd927cb4cd8652d"
+    },
+    {
+      "path": "src/assets/images/logo/logo_profile.png",
+      "sha1": "c3261a76012b8c60624f091562d860d9754b58d7"
+    },
+    {
+      "path": "src/assets/images/vector/bar_line.png",
+      "sha1": "c17954660122bec68455607876fdf26a42841027"
+    },
+    {
+      "path": "src/assets/images/vector/bubble.png",
+      "sha1": "8396e2ae54044b1131461f58ecc39bddb91f7f0b"
+    },
+    {
+      "path": "src/assets/images/vector/bubbles.png",
+      "sha1": "53c9b658ecbb65f136c69603d14ada50f0389c94"
+    },
+    {
+      "path": "src/assets/images/vector/bubbles_profile.png",
+      "sha1": "395e4f218fbbe604358d413703cd16568f4e0bb4"
+    },
+    {
+      "path": "src/assets/images/vector/cadre_paiement.png",
+      "sha1": "d8d4aaca1e99084b93a439c6dc31e2ea968478c0"
+    },
+    {
+      "path": "src/assets/images/vector/camera.png",
+      "sha1": "bca6f26f74625f7c38fb5c3b1abd2c97f9a7d0c7"
+    },
+    {
+      "path": "src/assets/images/vector/camion.png",
+      "sha1": "3e51b438973be63f8b0773cc5db1c3a9b4dbef2f"
+    },
+    {
+      "path": "src/assets/images/vector/cash.png",
+      "sha1": "d7ce89ec61fba135c9cbc91b0c86cf28e67efcaa"
+    },
+    {
+      "path": "src/assets/images/vector/cheque.png",
+      "sha1": "f68fbc58a4edc9d982b224c3c375bd82d73812e2"
+    },
+    {
+      "path": "src/assets/images/vector/credit.png",
+      "sha1": "cf6a082bb47f9ebf6e07fae889d962d13ebc8fdc"
+    },
+    {
+      "path": "src/assets/images/vector/cyrcle.png",
+      "sha1": "61e9c6f04a71c944ce7c9a4539d452fc5c3d19f3"
+    },
+    {
+      "path": "src/assets/images/vector/cyrcle_etat.png",
+      "sha1": "4a8dd869d5ccc0783880b177fdd6eddbf103b4db"
+    },
+    {
+      "path": "src/assets/images/vector/delete.png",
+      "sha1": "0568dd7edb3cb142236ef27dc2b49e5536257985"
+    },
+    {
+      "path": "src/assets/images/vector/etat_fin.png",
+      "sha1": "eb31007b76af5462fe67b45afc7e076045aa5452"
+    },
+    {
+      "path": "src/assets/images/vector/img.png",
+      "sha1": "fbc9e31a94537b51e7eff3d2ae2b6d4510eacf1d"
+    },
+    {
+      "path": "src/assets/images/vector/pdf.png",
+      "sha1": "794670dd604993e2ca5eca84cce2ab82df1ad47a"
+    },
+    {
+      "path": "src/assets/images/vector/printer.png",
+      "sha1": "cb1a58a104cc2a839915f28f4623ab48a27e1aa3"
+    },
+    {
+      "path": "src/assets/images/vector/remise.png",
+      "sha1": "6f00bec57869e3a895acb44154fff7a1154a907a"
+    },
+    {
+      "path": "src/assets/images/vector/save.png",
+      "sha1": "d5e07e417b46718cf59880bd3d408f7070076780"
+    },
+    {
+      "path": "src/assets/images/vector/search.png",
+      "sha1": "b634710d90fa26838251152fe235d7ec321bef04"
+    },
+    {
+      "path": "src/assets/images/vector/sort.png",
+      "sha1": "ac68e0af1d1751ec969790161f77deeafecbab91"
+    },
+    {
+      "path": "src/assets/images/vector/user.png",
+      "sha1": "d445ac99b61af071f00dcf57de01bb6a3973718a"
+    },
+    {
+      "path": "src/assets/images/vector/valid.png",
+      "sha1": "c139cf0a47fb2cede360a28c709c6ebe2bbb4eb1"
+    },
+    {
+      "path": "src/assets/images/vector/valide.png",
+      "sha1": "d5e07e417b46718cf59880bd3d408f7070076780"
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80B921A6F3F58F76C31292 /* libPods-ouichen_ayoub_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ouichen_ayoub_app.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CA2F0E1B43274C308FA809CD /* app_icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FBCCBC9D22447CBCC92234 /* app_icons.ttf */; };
+		ACF0DBFF40B9405E8863281A /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC37744C24588884AA67B /* Poppins-Black.ttf */; };
+		3B8C97F0921D43B3B939CEB5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFD76184FF7F4D2F956C2D56 /* Poppins-Bold.ttf */; };
+		7A43FB19B0CD497B96D32A07 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 706CDD64D3F2478DBFE324A6 /* Poppins-ExtraBold.ttf */; };
+		E2B704B694C3433CB8E37E67 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621C5D3529BB433A9DB83C48 /* Poppins-ExtraLight.ttf */; };
+		78CF23EDE336484787D51BC2 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0E1273FA11C4408932074A3 /* Poppins-Light.ttf */; };
+		137CA56787194E7792EC3BD1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C90793D0FB94DEF8D57014B /* Poppins-Medium.ttf */; };
+		798A0E13E5AF43D182C8C224 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51356148168649E0813BD8E9 /* Poppins-Regular.ttf */; };
+		0489FE9C28BC4670AB412364 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDDA706399C84E9580A39010 /* Poppins-SemiBold.ttf */; };
+		816D9DF17B024587A2B0D073 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F30103FDE134F3599737D74 /* Poppins-Thin.ttf */; };
+		D9B71733D1854CF38B9666E1 /* amazonpay.png in Resources */ = {isa = PBXBuildFile; fileRef = C69D2B37651E432A9BEF24BC /* amazonpay.png */; };
+		97768E5688384F3B9B4B9929 /* applepay.png in Resources */ = {isa = PBXBuildFile; fileRef = 879F12B9B482471FB7338851 /* applepay.png */; };
+		E9173F2DA83340A692D2D571 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E6F2466D564277ABAEFBE0 /* avatar.png */; };
+		F5A1F195B49B46C8ACF88A74 /* gpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5415C60F89704926BD5F5CB1 /* gpay.png */; };
+		DF47F991F974416F9904C099 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 4236F496781847F0AE9090E5 /* bubble.png */; };
+		2AC45BC280E4448EA92962DE /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 87843DB1852F4F2DB957F120 /* camera.png */; };
+		767F4815C5E74BCAA83A1D4C /* camion.png in Resources */ = {isa = PBXBuildFile; fileRef = C24FA7D6874845338D82B9C4 /* camion.png */; };
+		B8A4CB8AF93540348F75A6A5 /* cash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6134225C58C340CCB260CC4A /* cash.png */; };
+		7F29840F085C4C66998848E1 /* cheque.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B388C1367646E1BF46511A /* cheque.png */; };
+		3427B1FF2A5641008951F4E8 /* credit.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D4800355D45AFB9F07FD5 /* credit.png */; };
+		E90C6348526645F39648E269 /* cyrcle.png in Resources */ = {isa = PBXBuildFile; fileRef = DB26DFF74E8E4F09BE9DB8A2 /* cyrcle.png */; };
+		7F0C0C82D6D44D4EA3997730 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 536FA43D3066407A934C8E65 /* delete.png */; };
+		C7276177AA3E49C194B15836 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = FB08628E45D84486B068333A /* img.png */; };
+		7C1991BF29B7459AA11418E3 /* pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C014B783640D786581077 /* pdf.png */; };
+		321944A5606144EDBEB9C6E8 /* printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AF7745ED4F4A78A2298FF2 /* printer.png */; };
+		ACD2F813E2BE43F7BDA8B5AB /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = B24A2793A05A433D8759DCF7 /* save.png */; };
+		CE69BAD125814281AB07C9BF /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7356B8B72340B1AB6F3BAA /* sort.png */; };
+		5720013F84CB4FE6815DD1B9 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6DF464A4C5444496C7ABB2 /* user.png */; };
+		602A1037D1E34F60804127DD /* valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F1059823D4F7D883FE953 /* valid.png */; };
+		A629E3707AA34D2EBC272A71 /* valide.png in Resources */ = {isa = PBXBuildFile; fileRef = 32707184A53341449AE8F1E9 /* valide.png */; };
+		666A662626B54C48906F23C6 /* jaouda_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E53663063B42C08F896E85 /* jaouda_logo.png */; };
+		66ED1471903444FFA67A4E25 /* logo_copag.png in Resources */ = {isa = PBXBuildFile; fileRef = BC76217D64534BAFB822712C /* logo_copag.png */; };
+		1EB3010B4A0F4C18BC65A5E0 /* logo_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3B1C021A7541799089694F /* logo_profile.png */; };
+		EAB77D4F0B1B4388ACA94602 /* bar_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BF6864E0704961AD855F50 /* bar_line.png */; };
+		266CB631080542C1855A68C4 /* bubbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B64C56A32240E291448AE3 /* bubbles.png */; };
+		0189774FEB5C43FBBE13A10D /* bubbles_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B23AAD3E2E97499B8CADE10B /* bubbles_profile.png */; };
+		C5D4DE7A1E4F4A15869E91DE /* cadre_paiement.png in Resources */ = {isa = PBXBuildFile; fileRef = 068B2C54F206428F908FE497 /* cadre_paiement.png */; };
+		D57598AAD32642D8ADBA864B /* cyrcle_etat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469051BC8B941478D7FF7B9 /* cyrcle_etat.png */; };
+		E763B29E619A434AB32FA2ED /* etat_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E3F692140C46359922A3D2 /* etat_fin.png */; };
+		91FDB69AD62748C2B69D1EFB /* remise.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C8E6B9660A494D8FC5429C /* remise.png */; };
+		F1DB2B5B761A45A78728B62C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 548FB9DCAD7D4BB2A354C5F7 /* search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ouichen_ayoub_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ouichen_ayoub_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ouichen_ayoub_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ouichen_ayoub_app/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ouichen_ayoub_app/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ouichen_ayoub_app/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-ouichen_ayoub_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ouichen_ayoub_app.debug.xcconfig"; path = "Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ouichen_ayoub_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ouichen_ayoub_app.release.xcconfig"; path = "Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ouichen_ayoub_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ouichen_ayoub_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ouichen_ayoub_app/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ouichen_ayoub_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		24FBCCBC9D22447CBCC92234 /* app_icons.ttf */ = {isa = PBXFileReference; name = "app_icons.ttf"; path = "../src/assets/fonts/app_icons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60BEC37744C24588884AA67B /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFD76184FF7F4D2F956C2D56 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		706CDD64D3F2478DBFE324A6 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		621C5D3529BB433A9DB83C48 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0E1273FA11C4408932074A3 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C90793D0FB94DEF8D57014B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51356148168649E0813BD8E9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDDA706399C84E9580A39010 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F30103FDE134F3599737D74 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C69D2B37651E432A9BEF24BC /* amazonpay.png */ = {isa = PBXFileReference; name = "amazonpay.png"; path = "../src/assets/app_images/amazonpay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		879F12B9B482471FB7338851 /* applepay.png */ = {isa = PBXFileReference; name = "applepay.png"; path = "../src/assets/app_images/applepay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42E6F2466D564277ABAEFBE0 /* avatar.png */ = {isa = PBXFileReference; name = "avatar.png"; path = "../src/assets/app_images/avatar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5415C60F89704926BD5F5CB1 /* gpay.png */ = {isa = PBXFileReference; name = "gpay.png"; path = "../src/assets/app_images/gpay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4236F496781847F0AE9090E5 /* bubble.png */ = {isa = PBXFileReference; name = "bubble.png"; path = "../src/assets/images/vector/bubble.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87843DB1852F4F2DB957F120 /* camera.png */ = {isa = PBXFileReference; name = "camera.png"; path = "../src/assets/images/vector/camera.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C24FA7D6874845338D82B9C4 /* camion.png */ = {isa = PBXFileReference; name = "camion.png"; path = "../src/assets/images/vector/camion.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6134225C58C340CCB260CC4A /* cash.png */ = {isa = PBXFileReference; name = "cash.png"; path = "../src/assets/images/vector/cash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4B388C1367646E1BF46511A /* cheque.png */ = {isa = PBXFileReference; name = "cheque.png"; path = "../src/assets/images/vector/cheque.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E8D4800355D45AFB9F07FD5 /* credit.png */ = {isa = PBXFileReference; name = "credit.png"; path = "../src/assets/images/vector/credit.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB26DFF74E8E4F09BE9DB8A2 /* cyrcle.png */ = {isa = PBXFileReference; name = "cyrcle.png"; path = "../src/assets/images/vector/cyrcle.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		536FA43D3066407A934C8E65 /* delete.png */ = {isa = PBXFileReference; name = "delete.png"; path = "../src/assets/images/vector/delete.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB08628E45D84486B068333A /* img.png */ = {isa = PBXFileReference; name = "img.png"; path = "../src/assets/images/vector/img.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C2C014B783640D786581077 /* pdf.png */ = {isa = PBXFileReference; name = "pdf.png"; path = "../src/assets/images/vector/pdf.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81AF7745ED4F4A78A2298FF2 /* printer.png */ = {isa = PBXFileReference; name = "printer.png"; path = "../src/assets/images/vector/printer.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B24A2793A05A433D8759DCF7 /* save.png */ = {isa = PBXFileReference; name = "save.png"; path = "../src/assets/images/vector/save.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F7356B8B72340B1AB6F3BAA /* sort.png */ = {isa = PBXFileReference; name = "sort.png"; path = "../src/assets/images/vector/sort.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F6DF464A4C5444496C7ABB2 /* user.png */ = {isa = PBXFileReference; name = "user.png"; path = "../src/assets/images/vector/user.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D2F1059823D4F7D883FE953 /* valid.png */ = {isa = PBXFileReference; name = "valid.png"; path = "../src/assets/images/vector/valid.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32707184A53341449AE8F1E9 /* valide.png */ = {isa = PBXFileReference; name = "valide.png"; path = "../src/assets/images/vector/valide.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6E53663063B42C08F896E85 /* jaouda_logo.png */ = {isa = PBXFileReference; name = "jaouda_logo.png"; path = "../src/assets/images/logo/jaouda_logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC76217D64534BAFB822712C /* logo_copag.png */ = {isa = PBXFileReference; name = "logo_copag.png"; path = "../src/assets/images/logo/logo_copag.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF3B1C021A7541799089694F /* logo_profile.png */ = {isa = PBXFileReference; name = "logo_profile.png"; path = "../src/assets/images/logo/logo_profile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5BF6864E0704961AD855F50 /* bar_line.png */ = {isa = PBXFileReference; name = "bar_line.png"; path = "../src/assets/images/vector/bar_line.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52B64C56A32240E291448AE3 /* bubbles.png */ = {isa = PBXFileReference; name = "bubbles.png"; path = "../src/assets/images/vector/bubbles.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B23AAD3E2E97499B8CADE10B /* bubbles_profile.png */ = {isa = PBXFileReference; name = "bubbles_profile.png"; path = "../src/assets/images/vector/bubbles_profile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		068B2C54F206428F908FE497 /* cadre_paiement.png */ = {isa = PBXFileReference; name = "cadre_paiement.png"; path = "../src/assets/images/vector/cadre_paiement.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8469051BC8B941478D7FF7B9 /* cyrcle_etat.png */ = {isa = PBXFileReference; name = "cyrcle_etat.png"; path = "../src/assets/images/vector/cyrcle_etat.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85E3F692140C46359922A3D2 /* etat_fin.png */ = {isa = PBXFileReference; name = "etat_fin.png"; path = "../src/assets/images/vector/etat_fin.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1C8E6B9660A494D8FC5429C /* remise.png */ = {isa = PBXFileReference; name = "remise.png"; path = "../src/assets/images/vector/remise.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		548FB9DCAD7D4BB2A354C5F7 /* search.png */ = {isa = PBXFileReference; name = "search.png"; path = "../src/assets/images/vector/search.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ouichen_ayoub_app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ouichen_ayoub_app */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = ouichen_ayoub_app;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ouichen_ayoub_app.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ouichen_ayoub_app */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				95CCB5143DDF42BA9BAFB0DA /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ouichen_ayoub_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ouichen_ayoub_app.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ouichen_ayoub_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95CCB5143DDF42BA9BAFB0DA /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				24FBCCBC9D22447CBCC92234 /* app_icons.ttf */,
+				60BEC37744C24588884AA67B /* Poppins-Black.ttf */,
+				FFD76184FF7F4D2F956C2D56 /* Poppins-Bold.ttf */,
+				706CDD64D3F2478DBFE324A6 /* Poppins-ExtraBold.ttf */,
+				621C5D3529BB433A9DB83C48 /* Poppins-ExtraLight.ttf */,
+				F0E1273FA11C4408932074A3 /* Poppins-Light.ttf */,
+				1C90793D0FB94DEF8D57014B /* Poppins-Medium.ttf */,
+				51356148168649E0813BD8E9 /* Poppins-Regular.ttf */,
+				BDDA706399C84E9580A39010 /* Poppins-SemiBold.ttf */,
+				1F30103FDE134F3599737D74 /* Poppins-Thin.ttf */,
+				C69D2B37651E432A9BEF24BC /* amazonpay.png */,
+				879F12B9B482471FB7338851 /* applepay.png */,
+				42E6F2466D564277ABAEFBE0 /* avatar.png */,
+				5415C60F89704926BD5F5CB1 /* gpay.png */,
+				4236F496781847F0AE9090E5 /* bubble.png */,
+				87843DB1852F4F2DB957F120 /* camera.png */,
+				C24FA7D6874845338D82B9C4 /* camion.png */,
+				6134225C58C340CCB260CC4A /* cash.png */,
+				B4B388C1367646E1BF46511A /* cheque.png */,
+				5E8D4800355D45AFB9F07FD5 /* credit.png */,
+				DB26DFF74E8E4F09BE9DB8A2 /* cyrcle.png */,
+				536FA43D3066407A934C8E65 /* delete.png */,
+				FB08628E45D84486B068333A /* img.png */,
+				2C2C014B783640D786581077 /* pdf.png */,
+				81AF7745ED4F4A78A2298FF2 /* printer.png */,
+				B24A2793A05A433D8759DCF7 /* save.png */,
+				4F7356B8B72340B1AB6F3BAA /* sort.png */,
+				8F6DF464A4C5444496C7ABB2 /* user.png */,
+				0D2F1059823D4F7D883FE953 /* valid.png */,
+				32707184A53341449AE8F1E9 /* valide.png */,
+				E6E53663063B42C08F896E85 /* jaouda_logo.png */,
+				BC76217D64534BAFB822712C /* logo_copag.png */,
+				EF3B1C021A7541799089694F /* logo_profile.png */,
+				A5BF6864E0704961AD855F50 /* bar_line.png */,
+				52B64C56A32240E291448AE3 /* bubbles.png */,
+				B23AAD3E2E97499B8CADE10B /* bubbles_profile.png */,
+				068B2C54F206428F908FE497 /* cadre_paiement.png */,
+				8469051BC8B941478D7FF7B9 /* cyrcle_etat.png */,
+				85E3F692140C46359922A3D2 /* etat_fin.png */,
+				B1C8E6B9660A494D8FC5429C /* remise.png */,
+				548FB9DCAD7D4BB2A354C5F7 /* search.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ouichen_ayoub_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ouichen_ayoub_app" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ouichen_ayoub_app;
+			productName = ouichen_ayoub_app;
+			productReference = 13B07F961A680F5B00A75B9A /* ouichen_ayoub_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ouichen_ayoub_app" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ouichen_ayoub_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CA2F0E1B43274C308FA809CD /* app_icons.ttf in Resources */,
+				ACF0DBFF40B9405E8863281A /* Poppins-Black.ttf in Resources */,
+				3B8C97F0921D43B3B939CEB5 /* Poppins-Bold.ttf in Resources */,
+				7A43FB19B0CD497B96D32A07 /* Poppins-ExtraBold.ttf in Resources */,
+				E2B704B694C3433CB8E37E67 /* Poppins-ExtraLight.ttf in Resources */,
+				78CF23EDE336484787D51BC2 /* Poppins-Light.ttf in Resources */,
+				137CA56787194E7792EC3BD1 /* Poppins-Medium.ttf in Resources */,
+				798A0E13E5AF43D182C8C224 /* Poppins-Regular.ttf in Resources */,
+				0489FE9C28BC4670AB412364 /* Poppins-SemiBold.ttf in Resources */,
+				816D9DF17B024587A2B0D073 /* Poppins-Thin.ttf in Resources */,
+				D9B71733D1854CF38B9666E1 /* amazonpay.png in Resources */,
+				97768E5688384F3B9B4B9929 /* applepay.png in Resources */,
+				E9173F2DA83340A692D2D571 /* avatar.png in Resources */,
+				F5A1F195B49B46C8ACF88A74 /* gpay.png in Resources */,
+				DF47F991F974416F9904C099 /* bubble.png in Resources */,
+				2AC45BC280E4448EA92962DE /* camera.png in Resources */,
+				767F4815C5E74BCAA83A1D4C /* camion.png in Resources */,
+				B8A4CB8AF93540348F75A6A5 /* cash.png in Resources */,
+				7F29840F085C4C66998848E1 /* cheque.png in Resources */,
+				3427B1FF2A5641008951F4E8 /* credit.png in Resources */,
+				E90C6348526645F39648E269 /* cyrcle.png in Resources */,
+				7F0C0C82D6D44D4EA3997730 /* delete.png in Resources */,
+				C7276177AA3E49C194B15836 /* img.png in Resources */,
+				7C1991BF29B7459AA11418E3 /* pdf.png in Resources */,
+				321944A5606144EDBEB9C6E8 /* printer.png in Resources */,
+				ACD2F813E2BE43F7BDA8B5AB /* save.png in Resources */,
+				CE69BAD125814281AB07C9BF /* sort.png in Resources */,
+				5720013F84CB4FE6815DD1B9 /* user.png in Resources */,
+				602A1037D1E34F60804127DD /* valid.png in Resources */,
+				A629E3707AA34D2EBC272A71 /* valide.png in Resources */,
+				666A662626B54C48906F23C6 /* jaouda_logo.png in Resources */,
+				66ED1471903444FFA67A4E25 /* logo_copag.png in Resources */,
+				1EB3010B4A0F4C18BC65A5E0 /* logo_profile.png in Resources */,
+				EAB77D4F0B1B4388ACA94602 /* bar_line.png in Resources */,
+				266CB631080542C1855A68C4 /* bubbles.png in Resources */,
+				0189774FEB5C43FBBE13A10D /* bubbles_profile.png in Resources */,
+				C5D4DE7A1E4F4A15869E91DE /* cadre_paiement.png in Resources */,
+				D57598AAD32642D8ADBA864B /* cyrcle_etat.png in Resources */,
+				E763B29E619A434AB32FA2ED /* etat_fin.png in Resources */,
+				91FDB69AD62748C2B69D1EFB /* remise.png in Resources */,
+				F1DB2B5B761A45A78728B62C /* search.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ouichen_ayoub_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ouichen_ayoub_app/Pods-ouichen_ayoub_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ouichen_ayoub_app */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ouichen_ayoub_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ouichen_ayoub_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ouichen_ayoub_app;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ouichen_ayoub_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ouichen_ayoub_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ouichen_ayoub_app;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ouichen_ayoub_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ouichen_ayoub_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
