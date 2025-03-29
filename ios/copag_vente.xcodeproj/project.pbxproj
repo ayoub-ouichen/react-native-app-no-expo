@@ -42,7 +42,7 @@
 		602A1037D1E34F60804127DD /* valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F1059823D4F7D883FE953 /* valid.png */; };
 		A629E3707AA34D2EBC272A71 /* valide.png in Resources */ = {isa = PBXBuildFile; fileRef = 32707184A53341449AE8F1E9 /* valide.png */; };
 		666A662626B54C48906F23C6 /* jaouda_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E53663063B42C08F896E85 /* jaouda_logo.png */; };
-		66ED1471903444FFA67A4E25 /* logo_copag.png in Resources */ = {isa = PBXBuildFile; fileRef = BC76217D64534BAFB822712C /* logo_copag.png */; };
+		66ED1471903444FFA67A4E25 /* logo_app.png in Resources */ = {isa = PBXBuildFile; fileRef = BC76217D64534BAFB822712C /* logo_app.png */; };
 		1EB3010B4A0F4C18BC65A5E0 /* logo_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3B1C021A7541799089694F /* logo_profile.png */; };
 		EAB77D4F0B1B4388ACA94602 /* bar_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BF6864E0704961AD855F50 /* bar_line.png */; };
 		266CB631080542C1855A68C4 /* bubbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B64C56A32240E291448AE3 /* bubbles.png */; };
@@ -107,7 +107,7 @@
 		0D2F1059823D4F7D883FE953 /* valid.png */ = {isa = PBXFileReference; name = "valid.png"; path = "../src/assets/images/vector/valid.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		32707184A53341449AE8F1E9 /* valide.png */ = {isa = PBXFileReference; name = "valide.png"; path = "../src/assets/images/vector/valide.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E6E53663063B42C08F896E85 /* jaouda_logo.png */ = {isa = PBXFileReference; name = "jaouda_logo.png"; path = "../src/assets/images/logo/jaouda_logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BC76217D64534BAFB822712C /* logo_copag.png */ = {isa = PBXFileReference; name = "logo_copag.png"; path = "../src/assets/images/logo/logo_copag.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC76217D64534BAFB822712C /* logo_app.png */ = {isa = PBXFileReference; name = "logo_app.png"; path = "../src/assets/images/logo/logo_app.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		EF3B1C021A7541799089694F /* logo_profile.png */ = {isa = PBXFileReference; name = "logo_profile.png"; path = "../src/assets/images/logo/logo_profile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A5BF6864E0704961AD855F50 /* bar_line.png */ = {isa = PBXFileReference; name = "bar_line.png"; path = "../src/assets/images/vector/bar_line.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		52B64C56A32240E291448AE3 /* bubbles.png */ = {isa = PBXFileReference; name = "bubbles.png"; path = "../src/assets/images/vector/bubbles.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -233,7 +233,7 @@
 				0D2F1059823D4F7D883FE953 /* valid.png */,
 				32707184A53341449AE8F1E9 /* valide.png */,
 				E6E53663063B42C08F896E85 /* jaouda_logo.png */,
-				BC76217D64534BAFB822712C /* logo_copag.png */,
+				BC76217D64534BAFB822712C /* logo_app.png */,
 				EF3B1C021A7541799089694F /* logo_profile.png */,
 				A5BF6864E0704961AD855F50 /* bar_line.png */,
 				52B64C56A32240E291448AE3 /* bubbles.png */,
@@ -348,7 +348,7 @@
 				602A1037D1E34F60804127DD /* valid.png in Resources */,
 				A629E3707AA34D2EBC272A71 /* valide.png in Resources */,
 				666A662626B54C48906F23C6 /* jaouda_logo.png in Resources */,
-				66ED1471903444FFA67A4E25 /* logo_copag.png in Resources */,
+				66ED1471903444FFA67A4E25 /* logo_app.png in Resources */,
 				1EB3010B4A0F4C18BC65A5E0 /* logo_profile.png in Resources */,
 				EAB77D4F0B1B4388ACA94602 /* bar_line.png in Resources */,
 				266CB631080542C1855A68C4 /* bubbles.png in Resources */,

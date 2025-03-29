@@ -313,7 +313,7 @@ const ClientListScreens: React.FC = () => {
         <View style={styles.header}>
           <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
             <Image
-              source={require('../assets/images/logo/logo_copag.png')}
+              source={require('../assets/images/logo/logo_app.png')}
               style={styles.logo}
             />
           </TouchableOpacity>

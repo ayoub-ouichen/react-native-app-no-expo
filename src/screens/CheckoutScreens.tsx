@@ -201,7 +201,7 @@ const CheckoutScreens = ({ route }: { route: any }) => {
       <Image source={require('../assets/images/vector/bubbles.png')} style={styles.bubblesContainer}/>
       <View style={styles.header}>
         <TouchableOpacity           onPress={() => navigation.navigate('Profile')}>
-          <Image source={require('../assets/images/logo/logo_copag.png')} style={styles.logo}/>
+          <Image source={require('../assets/images/logo/logo_app.png')} style={styles.logo}/>
         </TouchableOpacity>
         <Text style={styles.headerTitle}>PAIMENET</Text>
       </View>

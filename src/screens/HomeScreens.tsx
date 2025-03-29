@@ -37,7 +37,7 @@ export const Home = () => {
 
             {/* Background & Logo */}
             <Image source={require('../assets/images/vector/bubble.png')} style={styles.bubbles} />
-            <Image source={require('../assets/images/logo/logo_copag.png')} style={styles.copagLogo} />
+            <Image source={require('../assets/images/logo/logo_app.png')} style={styles.appLogo} />
 
             {/* Login Form */}
             <View style={styles.formContainer}>
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   scrollContainer: { flexGrow: 1, justifyContent: 'center' },
   container: { flex: 1, backgroundColor: '#ffffff', alignItems: 'center' },
   bubbles: { position: 'absolute', width: 822, height: 1121, top: -180, left: -199 },
-  copagLogo: { width: 225, height: 225, marginVertical: 50, resizeMode: 'contain' },
+  appLogo: { width: 225, height: 225, marginVertical: 50, resizeMode: 'contain' },
   formContainer: { width: '85%', marginTop: 40 },
   input: {
     backgroundColor: '#f8f8f8',
